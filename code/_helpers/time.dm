@@ -55,18 +55,7 @@ var/next_station_date_change = 1 DAY
 	if(!station_date || update_time)
 		var/extra_days = round(station_time_in_ticks / (1 DAY)) DAYS
 		var/timeofday = world.timeofday + extra_days
-		station_date = num2text((text2num(time2text(timeofday, "YYYY"))+544)) + "-" + time2text(timeofday, "MM-DD")
-	return station_date
-
-/proc/stationdate2faggot()
-	var/update_time = TRUE
-	if(station_time_in_ticks > next_station_date_change)
-		next_station_date_change += 1 DAY
-		update_time = FALSE
-	if(!station_date || update_time)
-		var/extra_days = round(station_time_in_ticks / (5 DAY)) DAYS
-		var/timeofday = world.timeofday + extra_days
-		station_date = num2text((text2num(time2text(timeofday, "YYYY"))+8000000)) + "-" + time2text(timeofday, "DD-MM")
+		station_date = num2text((text2num(time2text(timeofday, "YYYY")))) + "-" + time2text(timeofday, "MM-DD")
 	return station_date
 
 /proc/time_stamp()
