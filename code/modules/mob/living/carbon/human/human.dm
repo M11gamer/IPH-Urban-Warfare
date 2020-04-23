@@ -352,11 +352,67 @@
 			return I.registered_name
 	return
 
+var/list/rank_prefix = list(\
+	"Ryadovoi" = "Ryad.",\
+	"Efreitor" = "Efr.",\
+	"Mladshiy Sergant" = "M.Sgt.",\
+	"Sergant" = "Sgt.",\
+	"Starshiy Sergant" = "S.Sgt.",\
+	"Starshina" = "Starsh.",\
+	"Praporshik" = "Prap.",\
+	"Starshiy Praporshik" = "St.Prap.",\
+	"Leitenant" = "Lt.",\
+	"Starshiy Leitenant" = "St.Lt.",\
+	"Kapitan" = "Kap.",\
+	"Mladshiy Leitenant" = "Ml.Lt.",\
+	"Private" = "PVT",\
+	"Private First Class" = "PFC",\
+	"Lance Corporal" = "LCPL",\
+	"Corporal" = "CPL",\
+	"Sergeant" = "SGT",\
+	"Staff Sergeant" = "SSGT",\
+	"Master Sergeant" = "MSGT",\
+	"Gunnery Sergeant" = "GySGT",\
+	"First Sergeant" = "FSGT",\
+	"Second Lieutenant" = "SLT",\
+	"Soldat" = "Soldat",\
+	"Gefreiter" = "Gefreiter",\
+	"Stabsgefreiter" = "Stabsgefreiter",\
+	"Stabsunteroffizier" = "Stabsunteroffizier",\
+	"Unteroffizier" = "Unteroffizier",\
+	"Leutnant" = "Leutnant",\
+	"Vojin" = "Vojin",\
+	"Svobodnik" = "Svobodnik",\
+	"Cetar" = "Cetar",\
+	"Rotmistr" = "Rotmistr",\
+	"Rotny" = "Rotny",\
+	"Porucik" = "Porucik",\
+	)
+
+/mob/living/carbon/human/proc/rank_prefix_name(name)
+	if(get_ins_rank())
+		if(findtext(name, " "))
+			name = copytext(name, findtext(name, " "))
+		name = get_ins_rank() + name
+	return name
+
 /mob/living/carbon/human/proc/get_job_name()
 	if(wear_id)
 		var/obj/item/weapon/card/id/I = wear_id.GetIdCard()
 		if(I)
 			return I.assignment
+
+/mob/living/carbon/human/proc/get_ins_rank()
+	var/rank
+	if(istype(w_uniform,/obj/item/clothing/under/uniform/federal))
+		var/obj/item/clothing/under/uniform/federal/P = w_uniform
+		rank = P.insrank
+	if(istype(w_uniform,/obj/item/clothing/under/rebel))
+		var/obj/item/clothing/under/rebel/P = w_uniform
+		rank = P.insrank
+	if(rank_prefix[rank])
+		return rank_prefix[rank]
+	return ""
 
 
 //gets ID card object from special clothes slot or null.

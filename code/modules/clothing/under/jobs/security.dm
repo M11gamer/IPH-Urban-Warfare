@@ -204,6 +204,7 @@
 /obj/item/clothing/under/uniform/federal
 	name = "federal soldier uniform"
 	desc = "A green military uniform."
+	insrank = "Ryadovoi"
 	icon_state = "federal"
 	item_state = "federal"
 	worn_state = "federal"

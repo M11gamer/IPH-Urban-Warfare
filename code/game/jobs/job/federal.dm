@@ -7,6 +7,7 @@
 
 	total_positions = 10
 	spawn_positions = 1
+	rankprefix  = "Ryad."
 	supervisors = "whoever is higher-ranked"
 	selection_color = "#008000"
 	economic_modifier = 7
@@ -39,6 +40,7 @@
 
 	total_positions = 2
 	spawn_positions = 1
+	rankprefix  = "Serg."
 	supervisors = "the commanding officer"
 	selection_color = "#00FF00"
 	economic_modifier = 9
@@ -46,6 +48,14 @@
 	//access = list(
 	//minimal_player_age = 7
 	//outfit_type = /decl/hierarchy/outfit/job/federal/officer
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		if(!H.religion_is_legal())//So that they can't be heretics. Orthodoxy only!
+			H.religion = LEGAL_RELIGION
+		//H.add_stats(rand(6,9), rand(9,11), rand(10,12))
+		H.generate_stats(STAT_ST)
+		H.generate_skills(list("melee","ranged","medical","engineering"))
 
 /datum/job/federal/general
 	title = "Federal General"

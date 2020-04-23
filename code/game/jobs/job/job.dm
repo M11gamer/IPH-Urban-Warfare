@@ -40,6 +40,7 @@
 	var/social_class = SOCIAL_CLASS_MED	  //Job's social standing.
 
 	var/sex_lock
+	var/rankprefix = ""
 
 /datum/job/New()
 	..()
