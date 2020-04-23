@@ -28,8 +28,8 @@
 		if(!C.mob.is_deaf() && C.get_preference_value(/datum/client_preference/floating_messages) == GLOB.PREF_SHOW)
 			if(C.mob.say_understands(null))
 				C.images += understood
-			else
-		return FALSE
+			//else
+		//return FALSE
 				//C.images += gibberish
 
 // Aracne magicks to keep consistent color for given name without me figuring out color maths
