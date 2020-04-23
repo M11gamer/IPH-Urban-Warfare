@@ -168,6 +168,12 @@
 	icon_state = "steel"
 	initial_flooring = /decl/flooring/tiling
 
+/turf/simulated/scorchedearth
+	name = "scorched earth"
+	icon = 'icons/turf/jungle.dmi'
+	icon_state = "scorched"
+	initial_flooring = /decl/flooring/scorchedearth
+
 /turf/simulated/floor/tiled/bar
 	name = "bar floor"
 	icon = 'icons/turf/flooring/tiles.dmi'

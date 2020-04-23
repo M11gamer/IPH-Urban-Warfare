@@ -59,7 +59,7 @@ var/list/flooring_types
 
 /decl/flooring/grass
 	name = "grass"
-	desc = "Do they smoke grass out in space, Bowie? Or do they smoke AstroTurf?"
+	desc = "Do they smoke grass out in Postia, Vladimir?"
 	icon = 'icons/turf/flooring/grass.dmi'
 	icon_base = "grass"
 	has_base_range = 3
@@ -71,6 +71,20 @@ var/list/flooring_types
 	wall_smooth = SMOOTH_ALL
 	space_smooth = SMOOTH_NONE
 	decal_layer = ABOVE_WIRE_LAYER
+
+/decl/flooring/scorchedearth
+	name = "scorched earth"
+	desc = "Scorched and has that weird smell to it."
+	icon = 'icons/turf/jungle.dmi'
+	icon_base = "scorched"
+	has_base_range = 3
+	//damage_temperature = T0C+80
+	can_engrave = FALSE
+	floor_smooth = SMOOTH_NONE
+	wall_smooth = SMOOTH_ALL
+	space_smooth = SMOOTH_NONE
+	decal_layer = ABOVE_WIRE_LAYER
+
 
 /decl/flooring/dirt
 	name = "dirt"
