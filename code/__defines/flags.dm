@@ -40,3 +40,8 @@ GLOBAL_LIST_INIT(bitflags, list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 //for easier porting and useful things.
 #define DIRLOCK					16		// movable atom won't change direction when Moving()ing. Useful for items that have several dir states.
 #define RELAY_CLICK				32		//This is used for /obj/ that relay your clicks via handle_click(), mostly for MGs + Sentries ~Art
+
+// for /datum/var/datum_flags
+#define DF_USE_TAG		(1<<0)
+#define DF_VAR_EDITED	(1<<1)
+#define DF_ISPROCESSING (1<<2)

@@ -28,6 +28,12 @@
 #define ATMOS_PRECISION 0.0001
 #define QUANTIZE(variable) (round(variable, ATMOS_PRECISION))
 
+#if DM_VERSION < 513
+#define CLAMP(CLVALUE,CLMIN,CLMAX) ( max( (CLMIN), min((CLVALUE), (CLMAX)) ) )
+#else
+#define CLAMP(CLVALUE,CLMIN,CLMAX) clamp(CLVALUE, CLMIN, CLMAX)
+#endif
+
 #define INFINITY	1.#INF
 
 #define TICKS_IN_DAY 		24*60*60*10

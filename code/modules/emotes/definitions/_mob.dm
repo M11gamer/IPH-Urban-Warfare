@@ -118,6 +118,7 @@
 		/decl/emote/visible/wink,
 		/decl/emote/visible/hug,
 		/decl/emote/visible/dap,
+		/decl/emote/audible/charge,
 		/decl/emote/visible/signal,
 		/decl/emote/visible/handshake,
 		/decl/emote/human/poo,

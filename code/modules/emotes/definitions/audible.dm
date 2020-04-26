@@ -359,6 +359,29 @@
 	user.custom_emote(2,"clears their throat.")
 	user.handle_emote_CD()
 
+/decl/emote/audible/charge
+	key = "charge"
+
+/decl/emote/audible/charge/do_emote(var/mob/living/carbon/human/user)
+	var/emotesound = null
+	if(user.isMonkey())
+		return
+
+	//else if(job.department_flag & FDR)
+		//emotesound = "sound/voice/emotes/charge_ru.ogg"
+
+	else
+		emotesound = "sound/voice/emotes/Alah.ogg"
+
+	if(user.gender == FEMALE)
+		return
+
+	if(emotesound)
+		playsound(user, emotesound, 50, 0, 1)
+
+	user.custom_emote(2,"calls for a charge!")
+	user.handle_emote_CD()
+
 /decl/emote/audible/grunt
 	key = "grunt"
 	emote_message_3p = "USER grunts."

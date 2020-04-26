@@ -130,7 +130,7 @@ var/list/gamemode_cache = list()
 
 	//Used for modifying movement speed for mobs.
 	//Unversal modifiers
-	var/run_speed = 3
+	var/run_speed = 4
 	var/walk_speed = 6
 
 	//Mob specific modifiers. NOTE: These will affect different mob types in different ways
@@ -850,6 +850,11 @@ var/list/gamemode_cache = list()
 			return M
 	return gamemode_cache["urban warfare"]
 
+/datum/configuration/proc/full_wipe()
+	entries_by_type.Cut()
+	QDEL_LIST_ASSOC_VAL(entries)
+	entries = null
+
 /datum/configuration/proc/get_runnable_modes()
 	var/list/runnable_modes = list()
 	for(var/game_mode in gamemode_cache)
@@ -859,7 +864,7 @@ var/list/gamemode_cache = list()
 	return runnable_modes
 
 /datum/configuration/proc/Get(entry_type)
-	var/datum/configuration/E = entry_type
+	var/datum/config_entry/E = entry_type
 	var/entry_is_abstract = initial(E.abstract_type) == entry_type
 	if(entry_is_abstract)
 		CRASH("Tried to retrieve an abstract config_entry: [entry_type]")
@@ -868,6 +873,30 @@ var/list/gamemode_cache = list()
 		CRASH("Missing config entry for [entry_type]!")
 		return
 	return E.config_entry_value
+
+/datum/configuration/proc/InitEntries()
+	var/list/_entries = list()
+	entries = _entries
+	var/list/_entries_by_type = list()
+	entries_by_type = _entries_by_type
+
+	for(var/I in typesof(/datum/config_entry))	//typesof is faster in this case
+		var/datum/config_entry/E = I
+		if(initial(E.abstract_type) == I)
+			continue
+		E = new I
+		var/esname = E.name
+		var/datum/config_entry/test = _entries[esname]
+		if(test)
+			log_world("Error: [test.type] has the same name as [E.type]: [esname]! Not initializing [E.type]!")
+			qdel(E)
+			continue
+		_entries[esname] = E
+		_entries_by_type[I] = E
+
+/datum/configuration/proc/RemoveEntry(datum/config_entry/CE)
+	entries -= CE.name
+	entries_by_type -= CE.type
 
 /datum/configuration/proc/load_event(filename)
 	var/event_info = file2text(filename)

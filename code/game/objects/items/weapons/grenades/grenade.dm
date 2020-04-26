@@ -112,3 +112,93 @@
 	walk(src, null, null)
 	..()
 	return
+
+/obj/item/weapon/grenade/suicide_vest
+	name = "suicide vest"
+	desc = "An IED suicide vest. Deadly!"
+	icon_state = "suicide_vest"
+	throw_speed = 1
+	throw_range = 2
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	slot_flags = SLOT_BELT
+	det_time = 10
+	var/armed = "disarmed"
+
+/obj/item/weapon/grenade/suicide_vest/detonate()
+	if (active)
+		var/turf/T = get_turf(src)
+		if(!T) return
+		var/original_mobs = list()
+		var/original_objs = list()
+
+		explosion(T,2,3,3,3)
+		for (var/mob/living/L in T.contents)
+			original_mobs += L
+			if (L.client)
+				L.canmove = FALSE
+				L.gib()
+		for (var/obj/O in T.contents)
+			original_objs += O
+		playsound(T, "explosion", 100, TRUE)
+		spawn (1)
+			for (var/mob/living/L in range(1,T))
+				if (L)
+					L.Weaken()
+					if (L)
+						L.canmove = TRUE
+			for (var/obj/O in original_objs)
+				if (O)
+					O.ex_act(1.0)
+			T.ex_act(1.0)
+		qdel(src)
+
+
+/obj/item/weapon/grenade/suicide_vest/examine(mob/user)
+	..()
+	to_chat(user, "\The [src] is <b>[armed]</b>.")
+	return
+
+/obj/item/weapon/grenade/suicide_vest/attack_self(mob/user as mob)
+	if (!active && armed == "armed")
+		to_chat(user, "<span class='warning'>You switch \the [name]!</span>")
+		activate(user)
+		add_fingerprint(user)
+
+/obj/item/weapon/grenade/suicide_vest/attack_hand(mob/user as mob)
+	if (!active && armed == "armed" && loc == user)
+		to_chat(user, "<span class='warning'>You switch \the [name]!</span>")
+		activate(user)
+		add_fingerprint(user)
+	else
+		..()
+
+/obj/item/weapon/grenade/suicide_vest/verb/arm()
+	set category = null
+	set name = "Arm/Disarm"
+	set src in range(1, usr)
+
+	if (armed == "armed")
+		to_chat(usr, "You disarm \the [src].")
+		armed = "disarmed"
+		return
+	else
+		to_chat(usr, "<span class='warning'>You arm \the [src]!</span>")
+		armed = "armed"
+		return
+
+/obj/item/weapon/grenade/suicide_vest/activate(mob/living/carbon/human/user as mob)
+	if (active)
+		return
+
+	if (user)
+		msg_admin_attack("[user.name] ([user.ckey]) primed \a [src] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[user.x];Y=[user.y];Z=[user.z]'>JMP</a>)")
+
+	if (user)
+		user.emote("charge")
+	active = TRUE
+	playsound(loc, 'sound/weapons/armbomb.ogg', 75, TRUE, -3)
+
+	spawn(det_time)
+		visible_message("<span class = 'warning'>\The [src] goes off!</span>")
+		detonate()
+		return
