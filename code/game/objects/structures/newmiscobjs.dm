@@ -163,7 +163,7 @@
 	anchored = 1
 
 /obj/structure/woodenclock
-	name = "some hospital device"
+	name = "an old wooden clock"
 	desc = "An old, wooden clock. Tick tack."
 	icon = 'icons/obj/miscobjs.dmi'
 	icon_state = "pclock"
