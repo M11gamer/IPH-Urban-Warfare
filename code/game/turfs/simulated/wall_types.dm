@@ -84,6 +84,12 @@
 /turf/simulated/wall/brick
 	icon_state = "brick"
 
+//I'm not sure where to put this new wall. So for now it is here.
+/turf/simulated/wall/brick1
+	name = "stone brick wall"
+	desc = "A stone brick wall."
+	icon_state = "stonebrick0"
+
 /turf/simulated/wall/wood
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "wood_preview"

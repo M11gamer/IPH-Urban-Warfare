@@ -9,7 +9,7 @@
 	#include "../shared/job/jobs.dm"
 	#include "../../code/modules/lobby_music/absconditus.dm"
 
-	#define using_map_DATUM /datum/map/example
+	#define using_map_DATUM /datum/map/fort
 
 #elif !defined(MAP_OVERRIDE)
 
