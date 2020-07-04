@@ -515,3 +515,24 @@
 	//no special effects, but the explosion is pretty big (same as a supermatter shard).
 	explosion(src.loc, 3, 6, 12, 16, 1)
 	qdel(src)
+
+
+/obj/machinery/power/port_gen/pacman/fuel
+	name = "EKS-224 Fuel Generator"
+	desc = "A soviet era generator that uses solidified fuel. Doesn't seem like it will explode unless if you really want it to."
+	icon_state = "portgen2"
+	sheet_path = /obj/item/stack/material/fuel
+	sheet_name = "Solidified Fuel"
+
+	power_gen = 15000 //watts
+	max_power_output = 5
+	max_safe_output = 4
+	time_per_sheet = 576
+	max_temperature = 250
+	temperature_gain = 50
+	board_path = /obj/item/weapon/circuitboard/pacman/fuel
+
+/obj/machinery/power/port_gen/pacman/fuel/explode()
+	//small 3x3 (?) boom. its just welding fuel
+	explosion(src.loc, 1, 2, 3, 3, 1)
+	qdel(src)
