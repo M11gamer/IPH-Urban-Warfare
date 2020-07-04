@@ -1,0 +1,162 @@
+"ab" = (/turf/simulated/open,/area/space)
+"ac" = (/turf/simulated/wall,/area/space)
+"ad" = (/obj/structure/railing,/turf/simulated/floor/tiled,/area/space)
+"ae" = (/obj/structure/stairs/zlong/east,/obj/structure/railing,/obj/machinery/light{icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled,/area/space)
+"af" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 8},/turf/simulated/floor/tiled,/area/space)
+"ag" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/plating,/area/space)
+"ah" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/flora/pottedplant/large,/turf/simulated/floor/tiled,/area/space)
+"ai" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/turf/simulated/floor/tiled,/area/space)
+"aj" = (/obj/structure/stairs/zlong/west,/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/tiled,/area/space)
+"ak" = (/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/tiled,/area/space)
+"al" = (/turf/simulated/wall/r_wall,/area/space)
+"am" = (/obj/structure/stairs/zlong/east,/obj/structure/railing,/turf/simulated/floor/tiled,/area/space)
+"an" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled,/area/space)
+"ao" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled,/area/space)
+"ap" = (/obj/structure/stairs/zlong/east,/turf/simulated/open,/area/space)
+"aq" = (/obj/structure/railing{icon_state = "railing0"; dir = 8},/obj/structure/railing,/turf/simulated/open,/area/space)
+"ar" = (/obj/structure/railing,/turf/simulated/open,/area/space)
+"as" = (/obj/structure/railing,/obj/structure/railing{icon_state = "railing0"; dir = 4},/turf/simulated/open,/area/space)
+"at" = (/obj/structure/stairs/zlong/west,/turf/simulated/open,/area/space)
+"au" = (/obj/structure/stairs/zlong/west,/obj/structure/railing,/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/tiled/white,/area/space)
+"av" = (/obj/structure/railing,/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/tiled/white,/area/space)
+"aw" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"ax" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 1},/obj/structure/flora/pottedplant/minitree,/turf/simulated/floor/tiled/white,/area/space)
+"ay" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 1},/obj/machinery/photocopier,/obj/machinery/light{icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/white,/area/space)
+"az" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 1},/obj/machinery/papershredder,/turf/simulated/floor/tiled/white,/area/space)
+"aA" = (/obj/structure/sink{dir = 1; icon_state = "sink"; pixel_y = 16},/obj/structure/mirror{pixel_x = 0; pixel_y = 33},/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 8},/turf/simulated/floor/tiled/freezer,/area/space)
+"aB" = (/obj/structure/sink{dir = 1; icon_state = "sink"; pixel_y = 16},/obj/structure/mirror{pixel_x = 0; pixel_y = 33},/turf/simulated/floor/tiled/freezer,/area/space)
+"aC" = (/obj/effect/floor_decal/newcorner/yellow/solid,/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/reagent_dispensers/fueltank,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"aD" = (/obj/effect/floor_decal/newcorner/whitegreen/corner,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"aE" = (/obj/effect/floor_decal/newcorner/whitegreen,/turf/simulated/floor/tiled/white,/area/space)
+"aF" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 1},/turf/simulated/floor/tiled/white,/area/space)
+"aG" = (/obj/effect/floor_decal/newcorner/whitegreen/corner,/turf/simulated/floor/tiled/white,/area/space)
+"aH" = (/obj/machinery/light{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"aI" = (/obj/effect/floor_decal/newcorner/yellow/solid,/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/reagent_dispensers/watertank,/obj/structure/sign/warning/nosmoking_2{pixel_x = -32},/turf/simulated/floor/tiled/white,/area/space)
+"aJ" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 1},/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 8},/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/crate/medical,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 9},/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/weapon/reagent_containers/glass/rag,/obj/item/weapon/storage/pill_bottle/paracetamol,/obj/item/weapon/storage/pill_bottle/spaceacillin,/obj/item/weapon/storage/pill_bottle/inaprovaline,/obj/random/firstaid,/obj/random/firstaid,/obj/random/medical,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical,/obj/item/clothing/accessory/stethoscope,/obj/item/device/flashlight/pen,/obj/item/weapon/defibrillator/loaded,/turf/simulated/floor/tiled,/area/space)
+"aK" = (/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 8},/turf/simulated/floor/tiled/ramp{icon_state = "ramptop"; dir = 1},/area/space)
+"aL" = (/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 4},/turf/simulated/floor/tiled/ramp{icon_state = "ramptop"; dir = 1},/area/space)
+"aM" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 4},/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 1},/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 5},/obj/effect/floor_decal/industrial/outline,/obj/item/weapon/reagent_containers/glass/bottle/toxin{pixel_x = 3; pixel_y = 3},/obj/item/weapon/reagent_containers/glass/bottle/ammonia,/obj/item/weapon/plantspray/pests/old/phosmet,/turf/simulated/floor/tiled,/area/space)
+"aN" = (/obj/structure/filingcabinet/filingcabinet,/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"aO" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/space)
+"aP" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/obj/effect/floor_decal/industrial/warning/corner{icon_state = "warningcorner"; dir = 1},/turf/simulated/floor/tiled/white,/area/space)
+"aQ" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 8},/obj/effect/floor_decal/industrial/outline/yellow,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 8},/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,/obj/item/weapon/reagent_containers/ivbag/blood/OPlus,/obj/item/weapon/storage/box/freezer,/turf/simulated/floor/tiled,/area/space)
+"aR" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/turf/simulated/floor/tiled,/area/space)
+"aS" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 4},/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 4},/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline{pixel_x = 2; pixel_y = 2},/obj/item/weapon/reagent_containers/glass/bottle/antitoxin{pixel_x = 5; pixel_y = 5},/obj/random/medical/lite,/turf/simulated/floor/tiled,/area/space)
+"aT" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"aU" = (/obj/item/modular_computer/console/preset/medical,/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"aV" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 8},/obj/effect/floor_decal/industrial/warning,/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/space)
+"aW" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/obj/effect/floor_decal/industrial/warning/corner{icon_state = "warningcorner"; dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"aX" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 8},/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 8},/obj/item/weapon/reagent_containers/glass/beaker/vial/random/toxin{pixel_x = -3; pixel_y = -3},/obj/item/weapon/reagent_containers/glass/beaker/vial/random/toxin,/obj/item/weapon/reagent_containers/glass/beaker/vial/random{pixel_x = 3; pixel_y = 3},/obj/item/weapon/reagent_containers/glass/bottle/pacid{pixel_x = 5; pixel_y = -4},/obj/random/medical,/turf/simulated/floor/tiled,/area/space)
+"aY" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 4},/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 4},/obj/item/weapon/reagent_containers/glass/bottle/frostoil,/obj/item/weapon/reagent_containers/glass/bottle/capsaicin{pixel_x = 3; pixel_y = 3},/obj/random/medical/lite,/turf/simulated/floor/tiled,/area/space)
+"aZ" = (/obj/structure/bed/chair/office/light{icon_state = "officechair_white_preview"; dir = 1},/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/obj/machinery/light{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"ba" = (/obj/structure/reagent_dispensers/acid{pixel_x = -32; pixel_y = -2},/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor/tiled/white,/area/space)
+"bb" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"bc" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 8},/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 10},/obj/effect/floor_decal/industrial/outline,/obj/item/weapon/reagent_containers/glass/beaker/large,/obj/item/weapon/reagent_containers/glass/beaker/large,/obj/item/weapon/reagent_containers/glass/beaker,/obj/item/weapon/storage/box/masks{pixel_x = 3; pixel_y = 3},/obj/item/weapon/storage/box/gloves,/obj/item/clothing/accessory/stethoscope,/obj/item/clothing/accessory/stethoscope,/obj/item/device/flashlight/pen,/turf/simulated/floor/tiled,/area/space)
+"bd" = (/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 8},/turf/simulated/floor/tiled/ramp,/area/space)
+"be" = (/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 4},/turf/simulated/floor/tiled/ramp,/area/space)
+"bf" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/structure/table/rack/shelf,/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 4},/obj/structure/window/reinforced,/obj/effect/floor_decal/industrial/outline,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 6},/obj/effect/floor_decal/industrial/outline,/obj/item/weapon/reagent_containers/glass/bottle/stoxin,/obj/item/weapon/reagent_containers/glass/bottle/chloralhydrate{pixel_x = 3; pixel_y = 3},/obj/item/weapon/tank/anesthetic,/obj/item/clothing/mask/breath/medical,/turf/simulated/floor/tiled,/area/space)
+"bg" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 8},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/white,/area/space)
+"bh" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0; tag = ""},/turf/simulated/floor/tiled/white,/area/space)
+"bi" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/machinery/door/airlock/glass_virology,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0; tag = ""},/turf/simulated/floor/tiled/white,/area/space)
+"bj" = (/obj/structure/reagent_dispensers/virusfood{pixel_x = -32; pixel_y = 2},/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor/tiled/white,/area/space)
+"bk" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 1},/turf/simulated/floor/tiled/white,/area/space)
+"bl" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"bm" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0; tag = ""},/turf/simulated/floor/tiled/white,/area/space)
+"bn" = (/obj/structure/bed/chair/office/light,/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 4},/obj/structure/extinguisher_cabinet{pixel_x = 25; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/space)
+"bo" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/closet/crate,/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,/obj/item/weapon/storage/box/samplebags,/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/item/weapon/storage/box/glasses/shot,/obj/item/weapon/autopsy_scanner,/turf/space,/area/space)
+"bp" = (/obj/structure/closet/secure_closet/chemical,/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/effect/floor_decal/industrial/warning/corner{icon_state = "warningcorner"; dir = 1},/turf/space,/area/space)
+"bq" = (/obj/effect/floor_decal/newcorner/whitegreen/corner{icon_state = "wgreen-corner"; dir = 1},/obj/structure/railing{icon_state = "railing0"; dir = 8},/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 9},/obj/structure/bed/chair/office/light,/turf/simulated/floor/tiled/dark,/area/space)
+"br" = (/obj/effect/floor_decal/newcorner/whitegreen,/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 1},/turf/simulated/floor/tiled/dark,/area/space)
+"bs" = (/obj/effect/floor_decal/newcorner/whitegreen/corner,/obj/structure/railing{icon_state = "railing0"; dir = 4},/obj/effect/floor_decal/spline/plain{icon_state = "spline_plain"; dir = 5},/obj/structure/bed/chair/office/light,/turf/simulated/floor/tiled/dark,/area/space)
+"bt" = (/obj/structure/table/reinforced,/obj/item/weapon/folder/blue,/obj/item/weapon/book/manual/materials_chemistry_analysis,/obj/structure/cable,/obj/machinery/power/apc{name = "south bump"; pixel_y = -22},/turf/simulated/floor/tiled/white,/area/space)
+"bu" = (/obj/structure/table/reinforced,/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/obj/machinery/light{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"bv" = (/obj/machinery/portable_atmospherics/hydroponics/soil/invisible,/turf/simulated/open,/area/space)
+"bw" = (/turf/simulated/floor/plating,/area/space)
+"bx" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/machinery/door/airlock/lift,/turf/simulated/floor/tiled/white,/area/space)
+"by" = (/obj/effect/floor_decal/newcorner/whitegreen,/turf/simulated/floor/tiled,/area/space)
+"bz" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/machinery/vending/cigarette,/turf/simulated/floor/tiled,/area/space)
+"bA" = (/obj/effect/floor_decal/newcorner/whitegreen{icon_state = "wgreen"; dir = 1},/turf/simulated/floor/tiled,/area/space)
+"bB" = (/obj/structure/railing{icon_state = "railing0"; dir = 1},/obj/machinery/light,/turf/simulated/floor/tiled,/area/space)
+
+(1,1,1) = {"
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababacacacacabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababacadaeafabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababagahaiafabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababacajakafabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababalalalalalabababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababaladamafalabababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababalanaiafaoabababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababalajakafalabababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababalalalalalabababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababapaqarararasatabababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalalalalalalalalalalabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalauavawaxayazaAaBalabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalaCaDaEaFaGaEaFaHalabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalaIaDaJaKaLaMaFaNagabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababagaOaPaQafaRaSaTaUagabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababagaVaWaXafaRaYaTaZalabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbabbbcbdbebfbgbhbiabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbjbbbkblawbkbmbnalabababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbobpbqbrbrbsbtbualabababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababbvabababalalalalalalabababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbwbwbwbwalabababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbwbwbwbwbxabababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababbvabababababababababababababalbwbwbwbwbxabababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalbwbwbwbwalabababababababababababababababababababababab
+ababababababababababababababababababababababababababababababababababababababababababababababababababababalalalalalalabababababababababababababababababababababab
+abababababacacacacacababababababababababababababababababababababababababababababababababababababababababaladamafalababababababababababababababababababababababab
+abababababacbyadamacababababababababababababababababababababababababababababababababababababababababababalbzaiafaoababababababababababababababababababababababab
+abababababagaiaiafaoababababababababababababababababababababababababababababababababababababababababababalajakafalababababababababababababababababababababababab
+abababababacbAajbBacababababababababababababababababababababababababababababababababababababababababababalalalalalababababababababababababababababababababababab
+abababababacacacacacabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+"}
