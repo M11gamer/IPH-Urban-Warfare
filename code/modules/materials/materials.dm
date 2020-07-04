@@ -307,6 +307,23 @@ var/list/name_to_material
 	sheet_plural_name = "crystals"
 	is_fusion_fuel = 1
 
+/material/fuel
+	name = "solidified fuel"
+	stack_type = /obj/item/stack/material/fuel
+	ignition_point = PHORON_MINIMUM_BURN_TEMPERATURE
+	melting_point = T0C+300
+	icon_base = "stone"
+	table_icon_base = "stone"
+	icon_colour = "#777777"
+	shard_type = SHARD_SHARD
+	hardness = 2 //it's literally fuel
+	stack_origin_tech = list(TECH_MATERIAL = 2)
+	door_icon_base = "stone"
+	sheet_singular_name = "bar"
+	sheet_plural_name = "bars"
+	is_fusion_fuel = 1
+
+
 /material/phoron/supermatter
 	name = "supermatter"
 	icon_colour = "#ffff00"

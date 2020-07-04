@@ -314,3 +314,12 @@
 
 /obj/item/stack/material/glass/phoronrglass/ten
 	amount = 10
+
+/obj/item/stack/material/fuel
+	name = "solidified fuel"
+	desc = "Solidified bars of fuel, used in certain field generators."
+	icon_state = "sheet-silver"
+	default_type = "tritium"
+
+/obj/item/stack/material/fuel
+	amount = 15
